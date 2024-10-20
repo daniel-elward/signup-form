@@ -10,32 +10,50 @@
 
 <div class="wrapper">
     <div class="left-col">
-        <div class="heading-banner"><p>ODIN</p></div>
-        <div class="credit"><p>Photo by <a href="https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Steve Johnson</a> on <a href="https://unsplash.com/photos/a-computer-generated-image-of-blue-squares-37Ue2JLXHvE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        <div class="heading-banner"><p><img src="odin-lined.png" style="vertical-align:middle" width="130px" alt="Odin Project Logo">ODIN</p></div>
+        <div class="credit"><p>Photo by <a href="https://unsplash.com/@cmreflections?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clément M.</a> on <a href="https://unsplash.com/photos/photo-of-pine-trees-igX2deuD9lc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
         </p></div>
     </div>
     <div class="right-col">
-        <div class="intro-text"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est perspiciatis ut cupiditate omnis, rem necessitatibus vel, impedit totam dolores ea at quod neque voluptates quos quibusdam corporis earum modi odit.</p></div>
+        <div class="intro-text"><p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <i>now</i> to get started.</p>
+        
+        <p>You <i>know</i> you want to.</p></div>
         <div class="signup-form">
-            <p>Lets do this!</p>
+            <h2>Lets do this!</h2>
             <form action="#">
-                <p><label for="first-name">FIRST NAME</label></p>
-                <p><input type="text" id="first-name"></p>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">FIRST NAME</label><br>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">LAST NAME</label><br>
+                        <input type="text" id="last-name">
+                    </div>
+                </div>
 
-                <p><label for="last-name">LAST NAME</label></p>
-                <p><input type="text" id="last-name"></p>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email" name="email">EMAIL</label><br>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number">PHONE NUMBER</label><br>
+                        <input type="number" id="phone-number">
+                    </div>
+                </div>
 
-                <p><label for="email" name="email">EMAIL</label></p>
-                <p><input type="email" id="email"></p>
-
-                <p><label for="phone-number">PHONE NUMBER</label></p>
-                <p><input type="number" id="phone-number"></p>
-
-                <p><label for="password">PASSWORD</label></p>
-                <p><input type="password" id="password"></p>
-
-                <p><label for="password">CONFIRM PASSWORD</label></p>
-                <p><input type="password" id="password"></p>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" id="password" required pattern="[a-z]{2,5}">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-confirm">CONFIRM PASSWORD</label><br>
+                        <input type="password" id="password-confirm" required pattern="[a-z]{2,5}">
+                    </div>
+                </div>
 
                 <button type="submit">Create Account</button>
             </form>
