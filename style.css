@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+
+    border: 2px solid red;
+}
+
+.left-col {
+    width: 30vw;
+
+    border: 2px solid green;
+}
+
+.heading-banner {
+
+
+    background-color: yellow;
+}
+
+.credit {
+
+
+    background-color: red;
+}
+
+.right-col {
+    width: 70vw;
+
+    border: 2px solid yellow;
+}
+
+.intro-text {
+
+
+    border: 2px solid black;
+}
+
+.signup-form {
+
+
+    border:2px solid blue
+}
